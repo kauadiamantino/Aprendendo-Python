@@ -1,0 +1,5 @@
+print (1,'Kauã')
+print ('bla bla bla \'bla\'')
+print (r' blu \ blu\ blu')
+print ('Olá "haha"')
+print('Explícito', 'é', 'melhor " do que implícito')
