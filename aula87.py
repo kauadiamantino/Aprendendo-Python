@@ -36,4 +36,5 @@ def mostro_argumentos_nomeados(*args, **kwargs):
     for chave, valor in kwargs.items():
         print(chave, valor)
 
-mostro_argumentos_nomeados(1, 2, 3, nome='Joana', qLq=123)
+# mostro_argumentos_nomeados(1, 2, 3, nome='Joana', qLq=123)
+mostro_argumentos_nomeados(**pessoas_completa)
